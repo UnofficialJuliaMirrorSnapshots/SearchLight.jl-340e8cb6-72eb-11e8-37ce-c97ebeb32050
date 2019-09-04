@@ -22,6 +22,4 @@ const TEST_FILE_IDENTIFIER = "_test.jl"
 
 const SEARCHLIGHT_VALIDATOR_FILE_POSTFIX      = "Validator.jl"
 
-# Used to store log info during app bootstrap, when the logger itself is not available.
-# The queue is automatically emptied by the logger upon load.
-const SEARCHLIGHT_LOG_QUEUE = Vector{Tuple{String,Symbol}}()
+const LAST_INSERT_ID_LABEL = :LAST_INSERT_ID
