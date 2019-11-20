@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.15.0 - 2019-11-15
+
+* fixed issue with incorrect `to_join_part` declaration
+* refactored type and default value of joins SQLJoin[]
+* refactored internal API to rename functions according to Julia guidelines (no `_`) (**breaking**)
+
+## v0.14.0 - 2019-11-10
+
+* internal API cleanup (**breaking**)
+* removal of Nullables and refactoring to Union{Nothing,T}
+* deps update
+
 ## v0.13.1 - 2019-09-25
 
 * deps update
